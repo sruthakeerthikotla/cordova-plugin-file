@@ -1,0 +1,7 @@
+Fixed incorrect reporting of directories as files in 3.1.0
+
+-Cordova RTC Defect 36495
+-Worklight RTC Defect 36771
+-Backport of Jira CB-5774
+-http://stackoverflow.com/questions/21907440/ibm-worklight-how-do-i-patch-cordova/21907837#21907837
+-Description: directies reported as files for windows8 in 3.1.0
