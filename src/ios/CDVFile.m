@@ -227,7 +227,8 @@ NSString* const kCDVAssetsLibraryPrefix = @"assets-library://";
         result = [CDVPluginResult resultWithStatus:CDVCommandStatus_ERROR messageAsInt:ENCODING_ERR];
     } else if ([testUri isFileURL]) {
         NSFileManager* fileMgr = [[NSFileManager alloc] init];
-        NSString* path = [testUri path];
+        NSURL *resolvedFileURL = [testUri URLByResolvingSymlinksInPath];
+        NSString* path = [resolvedFileURL path];
         // NSLog(@"url path: %@", path);
         BOOL isDir = NO;
         // see if exists and is file or dir
