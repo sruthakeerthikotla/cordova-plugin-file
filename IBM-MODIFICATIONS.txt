@@ -1,0 +1,5 @@
+Fix for video file access security error in WL 6.2
+-Cordova RTC Defect 42492
+-Worklight RTC Defect TBD
+-JIRA CB-4952
+-Description: accessing a video file will fail a security due to file plugin changes after Cordova 3.0
