@@ -5,3 +5,10 @@ Fixed incorrect reporting of directories as files in 3.1.0
 -Backport of Jira CB-5774
 -http://stackoverflow.com/questions/21907440/ibm-worklight-how-do-i-patch-cordova/21907837#21907837
 -Description: directies reported as files for windows8 in 3.1.0
+
+Cordova iOS 64-bit support
+- Cordova RTC work item number: 55592
+- Worklight RTC work item number: 55901
+- Apache Cordova Jira issue: CB-6212
+- Markmail or Google Group reference: none
+- Fix plugin warnings compiled under arm64 64-bit
