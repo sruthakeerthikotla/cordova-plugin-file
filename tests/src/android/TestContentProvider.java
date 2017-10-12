@@ -17,7 +17,7 @@
        under the License.
  */
 package org.apache.cordova.file.test;
-
+package org.apache.cordova.file.test;
 import android.content.ContentProvider;
 import android.net.Uri;
 import android.content.res.AssetFileDescriptor;
